@@ -1,4 +1,6 @@
-// my first program in C++
+
+
+
 #include <iostream>
 //while loop
 int main()
