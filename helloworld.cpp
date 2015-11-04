@@ -2,6 +2,7 @@
 
 
 #include <iostream>
+#include <stdio.h>
 //while loop
 int main()
 {
@@ -10,5 +11,5 @@ int main()
     std::cout << "Hello World!\n";
     x+=1;   
    }
-  
+   printf("The number is %d\n", 81);
 }
