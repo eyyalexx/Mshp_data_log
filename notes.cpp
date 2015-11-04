@@ -31,7 +31,7 @@ int main (){	//"int" is the return type.
 	printf("%d %d \n", num, *num_ptr1);
 	
 	
-	student * std_ptr;
+	
 
 	
 	return 0;
@@ -39,21 +39,18 @@ int main (){	//"int" is the return type.
 }
 
 
+
+/*
+
 //decleration of student struct
 //a struct has a tpye
 struct student {		//"student" is the tag
 	int age;
 	float fee;
-} // can declare structs her aswell ie. mystrct1, mystrct2 after "}"
+}// can declare structs her aswell ie. mystrct1, mystrct2 after "}"
 
 //do this so later you can | stu_type mystrct1, mystrct1 |
-typedef struct student stu_type;
-
-stu_type mystrct1, mystrct2;
-
-
-mystrct1.age = 18;
-mystrct1.fee = 7000;
+*/
 
 
 
