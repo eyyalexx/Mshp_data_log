@@ -52,8 +52,8 @@ int main (){	//"int" is the return type.
 
 	return 0;
 	
-	//strcat(a, b); joins two things together ie. 2 characters.
-	
+	//strcat(a, b); joins two things together ie. 2 characters
+
 }
 
 
