@@ -3,6 +3,8 @@
 using namespace std;
 
 
+
+
 const float x = 14.7;    //can't be changed. (const)
 const int y = 6;		//can't be changed.	(const)
 int num;
@@ -12,6 +14,13 @@ int num;
 //"num_ptr1" and "num_ptr2" are pointers
 const int * num_ptr1;	//Preferred decleration
 int const * num_ptr2;	//Also compiles OKAY ^^
+
+
+struct student{
+
+	int age;
+	float fee;
+}; //make sure to and with a semi-colen after declaring struct.
 
 
 int main (){	//"int" is the return type.
@@ -31,26 +40,21 @@ int main (){	//"int" is the return type.
 	printf("%d %d \n", num, *num_ptr1);
 	
 	
-	
+	student stdnt1;
+	student * std_ptr;
 
-	
+	stdnt1.age = 20;
+	std_ptr = &stdnt1;
+
+	std_ptr->fee = 1000;
+
+	cout << stdnt1.fee << endl;
+
 	return 0;
 	
+	//strcat(a, b); joins two things together ie. 2 characters.
+	
 }
-
-
-
-/*
-
-//decleration of student struct
-//a struct has a tpye
-struct student {		//"student" is the tag
-	int age;
-	float fee;
-}// can declare structs her aswell ie. mystrct1, mystrct2 after "}"
-
-//do this so later you can | stu_type mystrct1, mystrct1 |
-*/
 
 
 
