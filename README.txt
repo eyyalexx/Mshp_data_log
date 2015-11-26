@@ -1,4 +1,4 @@
-# Mshp_data_log
+
 notes/working files
 mshpdlgr.cpp used to log membership info.
   *calculates membership costs with discounts or any other special offers.
